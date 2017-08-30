@@ -1,0 +1,373 @@
+* {
+  border: 0px solid skyblue;
+  box-sizing: border-box;
+}
+
+body {
+  color: #090909;
+  font-family: 'Roboto';
+  background-color: white;
+  margin: 0;
+  margin-top: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#F62459;
+}
+
+
+h1,h2 {
+  margin: 0 0 3% 0;
+}
+
+h1 {
+  font-size: 180px;
+  line-height: 0.8;
+
+}
+
+h2 {
+  line-height: 0.9;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  margin: 0;
+  line-height: 1;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.h3-title {
+
+  text-align: center;
+}
+
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+ul, .CoverBlock-tags  {
+  padding: 0;
+  list-style: none;
+  display: inline;
+  align-self: flex-start;
+}
+
+
+li, .CoverBlock-tag {
+  margin-right: 5px;
+  margin-top: 10px;
+  box-sizing: content-box;
+  font-size: 15px;
+  letter-spacing: 1px;
+  background-color: #F62459;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 60px;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.block--awop {
+  width: 315px;
+  height: 137.5px;
+}
+
+.maintext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #E74C3C, #DB0A5B);
+  /*background-image: linear-gradient(to bottom, #ECF0F1, #EEEEEE);*/
+}
+
+.maintext-paragraph {
+  font-size: 60px;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+}
+
+
+.maintext-button {
+  box-sizing: content-box;
+  /*background: #26C281;*/
+  background: #ECF0F1;
+  width: 240px;
+  height: 60px;
+  cursor: pointer;
+  border: 2px;
+  border-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000;
+  margin-top: 10px;
+  border-radius: 6px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s, width 0.3s , border-width 0.3s, border-color 0.3s;
+}
+
+.maintext-button:hover {
+  color: black;
+  font-weight: bold;
+  background: #DADFE1;
+}
+
+.maintext-button:active {
+  background: #F2F1EF;
+  outline: none;
+}
+
+.maintext-button:focus {
+  outline: 0;
+}
+
+
+.portfolio {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+
+}
+
+.CoverBlock  {
+  margin-top: 0.5%;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 266px;
+  padding: 60px;
+  color: white;
+}
+
+/*.CoverBlock:hover  {
+  background: #0000FE;
+}*/
+
+
+.CoverBlock-text {
+  flex: 1 1 50%;
+}
+
+.CoverBlock-image {
+  margin-left: 20%;
+  flex: 1 1 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.CoverBlock-title {
+
+
+}
+
+.CoverBlock-description {
+font-family: 'Lato';
+}
+
+.CoverBlock-tags {
+
+}
+
+.CoverBlock-tag {
+
+}
+
+.CoverBlock-logo {
+/*display: block;*/
+/*padding: 100px;*/
+}
+
+.CoverBlock-logo--1 {
+width: 192.5px;
+height: 70px;
+}
+
+.CoverBlock-logo--2 {
+width: 141px;
+height: 75px;
+}
+
+.CoverBlock-logo--3 {
+width: 182px;
+height: 36px;
+}
+
+.CoverBlock-logo--4 {
+width: 74px;
+height: 120px;
+}
+
+.CoverBlock-logo--5 {
+width: 161px;
+height: 198px;
+}
+
+.CoverBlock-logo--6 {
+width: 204px;
+height: 34px;
+}
+
+.bg {
+  background-image: url('img/interview.jpg');
+  position: absolute;
+  -webkit-filter: blur(5px);
+}
+
+
+.CoverBlock--1 {
+  background-image: url('img/interview.jpg');
+
+}
+
+.CoverBlock--2 {
+  background-image: url('img/tp.jpg');
+}
+
+.CoverBlock--3 {
+  background-image: url('img/coub.jpg');
+}
+
+.CoverBlock--4 {
+  background-image: url('img/yota.jpg');
+}
+
+.CoverBlock--5 {
+  background-image: url('img/picnic.jpg');
+}
+
+.CoverBlock--6 {
+  background-image: url('img/sdelanonew.jpg');
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.Icon-awop {
+  width: 45px;
+  height: 47px;
+}
+
+.Icon-facebook {
+  width: 25px;
+  height: 25px;
+}
+
+/*POP UP */
+
+/*.pop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  background-image: linear-gradient(to bottom, #ECF0F1, #EEEEEE);
+}*/
+/*
+input {
+  box-sizing: content-box;
+  background: ;
+  width: 220px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #2ECC71;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s, width 0.3s , border-width 0.3s, border-color 0.3s;
+
+}
+
+input:hover {
+  box-sizing: content-box;
+  background: ;
+  width: 225px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #2ECC71;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s, width 0.3s , border-width 0.3s, border-color 0.3s;
+
+}
+
+input:active {
+  outline: none;
+}
+
+input:focus {
+  outline: 0;
+}
+*/
+
+/*
+.portfolio-heading {
+  color: black;
+  padding: 100px;
+  align-self: center;
+  text-align: center;
+}*/
+
+/*
+30 px заголовок все
+20 px основной
+15 px кэпшен
+
+
+interview 197 x 109
+tp 141 x 141
+coub 182 x 36
+youta 119 x 119
+picnic 161 x 198
+sdelano 204 x34
+
+1440 x 308 (284)
+
+*/
